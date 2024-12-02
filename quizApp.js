@@ -9,48 +9,48 @@ let ans = 0;
 
 let questions = [
     {
-        question:'What is your name?',
+        question:'How many days are there in a week?',
         options:[
-            {option:'Atif', status:'false'},
-            {option:'Rimsha', status:'true'},
-            {option:'Kashif', status:'false'},
-            {option:'Samavia', status:'false'},
+            {option:'3 days', status:'false'},
+            {option:'7 days', status:'true'},
+            {option:'8 days', status:'false'},
+            {option:'11 days', status:'false'},
         ]
     },
     {
-        question:'What is your choice?',
+        question:'How many hours are there in a day?',
         options:[
-            {option:'IT', status:'true'},
-            {option:'CHEM', status:'false'},
-            {option:'PSY', status:'false'},
-            {option:'NONE', status:'false'},
+            {option:'24 hours', status:'true'},
+            {option:'18 hours', status:'false'},
+            {option:'8 hours', status:'false'},
+            {option:'20 hours', status:'false'},
         ]
     },
     {
-        question:'What did you like?',
+        question:'How many letters are there in the English alphabet?',
         options:[
-            {option:'A Mobile', status:'false'},
-            {option:'A Smart watch', status:'false'},
-            {option:'A Laptop', status:'true'},
-            {option:'A Tablet', status:'false'},
+            {option:'20 letters', status:'false'},
+            {option:'22 letters', status:'false'},
+            {option:'26 letters', status:'true'},
+            {option:'30 letters', status:'false'},
         ]
     },
     {
-        question:'How old are you?',
+        question:'Rainbow consist of how many colours?',
         options:[
-            {option:'22', status:'false'},
-            {option:'20', status:'true'},
-            {option:'24', status:'false'},
-            {option:'18', status:'false'},
+            {option:'5 colors', status:'false'},
+            {option:'7 colors', status:'true'},
+            {option:'3 colors', status:'false'},
+            {option:'8 colors', status:'false'},
         ]
     },
     {
-        question:'What is color of your eyes?',
+        question:'How many minutes are there in an hour?',
         options:[
-            {option:'Blue', status:'false'},
-            {option:'Gray', status:'false'},
-            {option:'Black', status:'false'},
-            {option:'Brown', status:'true'},
+            {option:'10 minutes', status:'false'},
+            {option:'20 minutes', status:'false'},
+            {option:'30 minutes', status:'false'},
+            {option:'60 minutes', status:'true'},
         ]
     }
 ]
