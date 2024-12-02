@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 105);
+    color: rgb(0, 0, 65);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div{
+    background-color: whitesmoke;
+    width: 450px;
+    height: auto;
+    margin-top: 120px;
+    padding: 0 20px 20px 20px;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid darkgrey;
+}
+
+p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button{
+    display: block;
+    margin-bottom: 10px;
+    background-color: transparent;
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+    color: rgb(0, 0, 48);
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: start;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 84);
+    color: white;
+}
+
+.nextbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nextbtn button{
+    width: 120px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: rgb(0, 0, 84);
+    color: white;   
+}
+
+.nextbtn button:hover{
+    background-color: rgb(0, 0, 48);
+}
+
+#next{
+    display: none;
+}
+
+.correct{
+    background-color: lightblue;
+}
+
+.incorrect{
+    background-color: rgb(227, 61, 61);
+}
+
+h1{
+    font-size: 38px;
+    text-align: center;
+}
+
+.restart{
+    margin-top: 30px;
+    width: 120px;
+    margin-left: 165px;
+    color: white;
+    background-color: rgb(0, 0, 84);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;   
+}
+
+.restart:hover{
+    background-color: rgb(0, 0, 48);
+}
